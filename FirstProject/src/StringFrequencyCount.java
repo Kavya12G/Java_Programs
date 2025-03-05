@@ -18,9 +18,13 @@ public class StringFrequencyCount {
         }
             a[c]++;
         }
+        System.out.print("{");
         for (int i = 0; i < sb.length(); i++) {
             char c = sb.charAt(i);
-            System.out.println(c + ":" + a[c]);
+            
+            System.out.print(c + " = " + a[c]);
+            
         }   
+        System.out.print("}");
     }
 }
