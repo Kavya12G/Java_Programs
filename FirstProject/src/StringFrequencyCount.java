@@ -23,6 +23,9 @@ public class StringFrequencyCount {
             char c = sb.charAt(i);
             
             System.out.print(c + " = " + a[c]);
+            if (i < str.length()-1) {
+                System.out.print(",");
+            }
             
         }   
         System.out.print("}");
